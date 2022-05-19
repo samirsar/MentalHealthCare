@@ -109,7 +109,7 @@ export class Singup extends Component {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          user_id: "6283b0f09bf4dc164b608650", // this shoudl be changes accordingly we update admin
+          user_id: "628543544906dd9b4b3b08ac", // this shoudl be changes accordingly we update admin
           verification: {
             name: json_get_user.name,
             email: json_get_user.email,
