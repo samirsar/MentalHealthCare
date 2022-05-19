@@ -45,7 +45,7 @@ export class PatientDoctor extends Component {
     });
     console.log(response);
     let json1 = await response.json();
-    console.log(json1);
+    console.log(json1,"what is occuring");
     this.setState(
       {
         data: json1,
@@ -236,7 +236,7 @@ export class PatientDoctor extends Component {
         (this.state.document && this.state.document.map(function(name,key){
 
       return <div class="modal-body">
-        <tr id={name._id}  key={key}>
+        <tr id={name._id}  key={name._id}>
                     <td><button style={{borderRadius:'32px'}} className="btn-success btn"><a href={`http://localhost:5000/static/${name.document}`}>{name.document.substr(0,10)}</a></button></td>
                     <td>
                     

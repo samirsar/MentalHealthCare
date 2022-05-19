@@ -146,7 +146,7 @@ export class ViewDoctor extends Component {
               
               
            if(name.data.varified==1){
-           return  <div key={index} className={`row d-flex my-5 `}>
+           return  <div key={name._id} className={`row d-flex my-5 `}>
               <div className="card">
                 <div className="row">
                   <div className="col-3">
