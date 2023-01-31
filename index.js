@@ -30,7 +30,7 @@ app.use('/unknownuser', require('./routes/QuestionAnswer'));
 
 
 
-if ( process.env.NODE_ENV == "production"){
+if ( process.env.NODE_ENV == "production"||process.env.NODE_ENV === 'staging'){
 
     app.use(express.static("Frontend/build"));
 
@@ -40,6 +40,7 @@ if ( process.env.NODE_ENV == "production"){
     });
 
 }
+
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
   })
