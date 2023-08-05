@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
 
 
-const mognoUrl="mongodb://localhost:27017/Healthworld?readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false"
-// const mognoUrl="mongodb+srv://Samir7:Y7vHd8P1RLKwSZWd@cluster0.qrayz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+// const mognoUrl="mongodb://localhost:27017/Healthworld?readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false"
+const mognoUrl="mongodb+srv://Samir7:Y7vHd8P1RLKwSZWd@cluster0.qrayz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 //  const mognoUrl=process.env.database;
 
 
